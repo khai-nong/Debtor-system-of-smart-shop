@@ -1,0 +1,227 @@
+body{
+    font-family: 'LINE Seed Sans TH';
+    margin: 0 auto;
+    background: #E8E8E8;
+}
+
+input{
+    vertical-align: top;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 17px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+table{
+    width: 70%;
+    height: 100px;
+    text-align: center;
+}
+
+.table2{
+    width: 37%;
+    height: 100px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.table3{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 0px 200px;
+}
+h1{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-family: 'LINE Seed Sans TH';
+    font-weight: 310;
+    line-height: normal;
+    text-align: center;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+}
+
+#txtyear{
+    vertical-align: top;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 17px;
+    width: 150px;
+    border-radius: 10px;
+    background: #FFF;
+}
+.head{
+    vertical-align: baseline;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 0px 0px;
+    text-align: left;
+}
+
+.head2{
+    vertical-align: top;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 23px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 5px 30px;
+    text-align: left;
+}
+.head3{
+    vertical-align: top;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 23px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.button-9{
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #09090c;
+    cursor: pointer;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 100%;
+    height: 50px;
+    line-height: 1.15;
+    margin: 0 auto;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 15%;
+}
+  
+.button-9:disabled {
+    cursor: default;
+}
+  
+.button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  
+.button-9:hover,
+.button-9:focus { 
+    background-color: #007CEF;
+    color: #ffffff;
+}
+
+.button-9:active {
+    background: #000000;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-9:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+/*---------------เลือกเดือน-------------------------*/
+select {
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #ffffff;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#007CEF;
+    border-radius: 10px;
+    font-family: 'LINE Seed Sans TH';
+    vertical-align: top;
+    font-size: 17px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+ }
+select::-ms-expand {
+    display: none;
+ }
+
+.button-9-2{
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #09090c;
+    cursor: pointer;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 100%;
+    height: 50px;
+    line-height: 1.15;
+    margin: 0 auto;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+}
+  
+.button-9-2:disabled {
+    cursor: default;
+}
+  
+.button-9-2:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  
+.button-9-2:hover,
+.button-9-2:focus { 
+    background-color: #007CEF;
+    color: #ffffff;
+}
+
+.button-9-2:active {
+    background: #000000;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-9-2:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}

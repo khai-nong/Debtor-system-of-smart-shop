@@ -1,0 +1,6 @@
+user and password for login
+user : Owner
+pass : 12345678
+
+You can read how to use doss and Full installation instructions are available in "How to use doss.pdf" 
+(Content within is entirely in Thai)

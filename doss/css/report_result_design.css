@@ -1,0 +1,185 @@
+body{
+    font-family: 'TH Sarabun New';
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.table_record{
+    width: 70%;
+    height: 100px;
+    text-align:left;
+}
+
+.table_detail{
+    width: 70%;
+    height: 100px;
+    text-align:left;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.tr_head{
+    color: #000000;
+    text-align: center;
+    background: #C6D9FF;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: rgb(23, 23, 23);
+}
+
+.tr_center{
+    color: #000000;
+    text-align: center;
+    
+}
+
+.text{
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 0px 200px;
+}
+
+h1{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-family: 'LINE Seed Sans TH';
+    font-weight: 310;
+    line-height: normal;
+    text-align: center;
+}
+h2{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-family: 'LINE Seed Sans TH';
+    font-weight: 310;
+    line-height: normal;
+    text-align: center;
+}
+
+.head{
+    vertical-align: baseline;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 0px 0px;
+    text-align: left;
+}
+
+.head2{
+    vertical-align: baseline;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 0px 0px;
+    text-align: left;
+}
+
+.button-9{
+    background-image: url('../img/dowload.png');
+    background-size: 35px; 
+    background-repeat: no-repeat; 
+    background-position: left center;
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #09090c;
+    cursor: pointer;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 70%;
+    height: 40px;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    padding: 0 50px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 140px;
+}
+  
+.button-9:disabled {
+    cursor: default;
+}
+  
+.button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  
+.button-9:hover,
+.button-9:focus { 
+    background-color: #007CEF;
+    color: #ffffff;
+}
+
+.button-9:active {
+    background: #000000;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-9:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+/*------------------------------------------*/
+
+.table_detail2{
+    width: 70%;
+    height: 100px;
+    text-align:center;
+    border-collapse: collapse;
+    color: #000000;
+    border-color: #ffffff;
+    border: 1px solid;
+    
+}
+.tr_head2{
+    color: #000000;
+    text-align: center;
+    border: 1px solid;
+    border-color: #000000;
+    background: #b7dcff;
+    
+}
+.tr_head3{
+    color: #000000;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.tr_head4{
+    color: #000000;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.table_detail3{
+    width: 50%;
+    height: 100px;
+    text-align:center;
+    border-collapse: collapse;
+    color: #000000;
+    border-color: #ffffff;
+    border: 1px solid;
+    
+}

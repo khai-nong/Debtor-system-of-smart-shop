@@ -1,0 +1,13 @@
+How to install
+1. install AppServ and Set up Username and Password to log in to phpmyadmin. 
+(Recommend : 
+Username: root
+Password : *your password*)
+2. login to phpMyAdmin
+3. New Database name " doss " and Import database (The file is in a folder named database.)
+4. Put the folder named doss inside Appserv (Appserv > www)
+5. Edit file " Connections " to connect the database (doss > connections) 
+6. Open Notepad, Wordpad or any program for editing code. and edit $db_user and $db_password It is the same as used to log in to phpMyAdmin.
+7. install font (doss > css > font)
+8. login to doss  ( http://localhost/doss/ )
+

@@ -1,0 +1,216 @@
+body{
+    font-family: 'LINE Seed Sans TH';
+    margin: 0 auto;
+    background: #E8E8E8;
+}
+#addr_note{
+    font-family: 'LINE Seed Sans TH';
+    font-size: 17px;
+    width: 80%;
+    height: 130px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(151, 151, 151, 0.25);
+    box-sizing: border-box;
+}
+input[type=text], select {
+    vertical-align: top;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 17px;
+    width: 80%;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(151, 151, 151, 0.25);
+    box-sizing: border-box;
+    
+}
+
+textarea[type=text], select{
+    vertical-align: top;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 17px;
+    width: 80%;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(151, 151, 151, 0.25);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #4b4a4a;
+    resize: none;
+}
+
+table{
+    width: 890px;
+    height: 470px;
+    flex-shrink: 0;
+    padding: 0px 100px;
+    text-align: center;
+    
+}
+h1{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-family: 'LINE Seed Sans TH';
+    font-weight: 310;
+    line-height: normal;
+}
+
+.head{
+    vertical-align: top;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 7px 30px;
+    text-align: left;
+}
+
+.color_warning{
+    color: #F40000;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.button-9{
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #09090c;
+    cursor: pointer;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 18px;
+    height: 50px;
+    line-height: 1.15;
+    margin: 0 auto;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 15%;
+  }
+  
+.button-9:disabled {
+    cursor: default;
+}
+  
+.button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  
+.button-9:hover,
+.button-9:focus { 
+    background-color: #007CEF;
+    color: #ffffff;
+}
+
+.button-9:active {
+    background: #00427E;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-9:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+/*------------------------------*/
+.color_warning {
+	color: #ff0000;
+}
+
+/*-----------------------------เพิ่มการชำระหนี้----------------------------------*/
+tr{
+    vertical-align: top;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    width: 170px;
+    font-weight: 300px;
+    padding: 7px 30px;
+    text-align: left;
+}
+
+#selectedDebtorInfo{
+    vertical-align: top;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    display: flex;
+    color: #007CEF;
+}
+
+input[type=number], select {
+    vertical-align: top;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 18px;
+    width: 70%;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(151, 151, 151, 0.25);
+    box-sizing: border-box;
+    
+}
+.table_pay{
+    width: 750px;
+    height: 440px;
+    flex-shrink: 0;
+    padding: 0px 100px;
+    text-align: center;
+}
+select {
+    background: #ffffff;
+    flex: 1;
+    color:#007CEF;
+    cursor:pointer;
+    font-family: 'LINE Seed Sans TH';
+ }
+select::-ms-expand {
+    display: none;
+ }
+.select{
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    color: #007CEF;
+ }
+.select::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1 1em;
+    background: #cac9c9;
+    border-radius: 5px;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+}
+.select:hover::after {
+    color: #00427E;
+}

@@ -1,0 +1,231 @@
+body{
+    font-family: 'LINE Seed Sans TH';
+    margin: 0 auto;
+    background: #E8E8E8; 
+}
+
+input{
+    vertical-align: top;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 17px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+table{
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(56, 182, 255, 0.65);
+}
+
+b{
+    color:#38B6FF;
+}
+h1{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 75px;
+    font-family: 'LINE Seed Sans TH';
+    font-weight: 310;
+    line-height: normal;
+    text-align: center;
+}
+
+.text{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-family: 'LINE Seed Sans TH';
+    font-weight: 310;
+    line-height: normal;
+    text-align: center;
+}
+
+.text2{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family: 'LINE Seed Sans TH';
+    font-weight: 310;
+    line-height: normal;
+    text-align: center;
+}
+
+.table_record{
+    width: 70%;
+    height: 100px;
+    text-align:left;
+}
+.table_detail{
+    width: 75%;
+    height: 100px;
+    text-align:left;
+    border-radius: 10px;
+    border-collapse: collapse;
+    
+}
+
+.table_detail2{
+    width: 65%;
+    height: 100px;
+    text-align:left;
+    border-radius: 10px;
+    border-collapse: collapse;
+    
+}
+.tr_head{
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 21px;
+    border-collapse: collapse;
+    border-color: rgb(23, 23, 23);
+}
+
+.tr_head2{
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 18px;
+    border-collapse: collapse;
+    border-color: rgb(23, 23, 23);
+}
+
+.head{
+    vertical-align: top;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    width: 0px;
+    font-weight: 300px;
+    padding: 7px 30px;
+    text-align: left;
+}
+
+.tr_center{
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.button-9{
+    background-image: url('../img/search.png');
+    background-size: 40px; 
+    width: 50px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #09090c;
+    cursor: pointer;
+    height: 50px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.button-9:disabled {
+    cursor: default;
+}
+  
+.button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  
+.button-9:hover,
+.button-9:focus { 
+    background-color: #007CEF;
+    color: #ffffff;
+}
+
+.button-9:active {
+    background: #000000;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-9:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.button-9-2{
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #09090c;
+    cursor: pointer;
+    height: 50px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+}
+  
+.button-9-2:disabled {
+    cursor: default;
+}
+  
+.button-9-2:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+  
+.button-9-2:hover,
+.button-9-2:focus { 
+    background-color: #007CEF;
+    color: #ffffff;
+}
+
+.button-9-2:active {
+    background: #000000;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-9-2:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
